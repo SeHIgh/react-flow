@@ -199,14 +199,14 @@ const initialNodes: Node[] = [
     position: { x: 400, y: 500 },
   },
   {
-    id: "aws-deploy",
+    id: "deploy-aws",
     type: "cicd",
     data: {
       label: "Deploy to AWS",
       type: "deploy",
       icon: "☁️",
       status: "idle",
-      description: "AWS EC2에 배포",
+      description: "AWS에 배포",
     },
     position: { x: 400, y: 650 },
   },
@@ -216,11 +216,11 @@ const initialNodes: Node[] = [
     data: {
       label: "EC2 Instance",
       type: "server",
-      icon: "🖥️",
+      icon: "💻",
       status: "idle",
-      description: "애플리케이션 실행 서버",
+      description: "EC2 인스턴스에서 실행",
     },
-    position: { x: 400, y: 800 },
+    position: { x: 700, y: 650 },
   },
 ];
 
@@ -314,13 +314,13 @@ const initialEdges: Edge[] = [
   {
     id: "e8",
     source: "docker-push",
-    target: "aws-deploy",
+    target: "deploy-aws",
     label: "이미지 준비",
     ...getEdgeStyle("idle"),
   },
   {
     id: "e9",
-    source: "aws-deploy",
+    source: "deploy-aws",
     target: "ec2-instance",
     label: "배포 완료",
     ...getEdgeStyle("idle"),
@@ -361,7 +361,7 @@ export default function CICDPipelinePage() {
     "run-tests",
     "docker-build",
     "docker-push",
-    "aws-deploy",
+    "deploy-aws",
     "ec2-instance",
   ];
 
@@ -373,7 +373,7 @@ export default function CICDPipelinePage() {
     "run-tests": ["e6"],
     "docker-build": ["e7"],
     "docker-push": ["e8"],
-    "aws-deploy": ["e9"],
+    "deploy-aws": ["e9"],
     "ec2-instance": [],
   };
 

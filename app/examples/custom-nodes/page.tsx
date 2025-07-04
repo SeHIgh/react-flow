@@ -90,7 +90,7 @@ const initialNodes: Node[] = [
       job: "팀장",
       emoji: "👨‍💼",
     },
-    position: { x: 250, y: 25 },
+    position: { x: 400, y: 50 },
   },
   {
     id: "2",
@@ -100,13 +100,13 @@ const initialNodes: Node[] = [
       job: "개발자",
       emoji: "👩‍💻",
     },
-    position: { x: 100, y: 125 },
+    position: { x: 150, y: 250 },
   },
   {
     id: "3",
     type: "diamond",
     data: { label: "검토" },
-    position: { x: 320, y: 125 },
+    position: { x: 400, y: 250 },
   },
   {
     id: "4",
@@ -116,7 +116,7 @@ const initialNodes: Node[] = [
       job: "디자이너",
       emoji: "🎨",
     },
-    position: { x: 500, y: 125 },
+    position: { x: 650, y: 250 },
   },
   {
     id: "5",
@@ -126,7 +126,7 @@ const initialNodes: Node[] = [
       job: "QA",
       emoji: "🔍",
     },
-    position: { x: 250, y: 250 },
+    position: { x: 400, y: 450 },
   },
 ];
 

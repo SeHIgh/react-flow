@@ -100,7 +100,7 @@ const initialNodes: Node[] = [
         { name: "updated_at", type: "DATETIME" },
       ],
     },
-    position: { x: 50, y: 50 },
+    position: { x: 100, y: 100 },
   },
   {
     id: "2",
@@ -117,7 +117,7 @@ const initialNodes: Node[] = [
         { name: "updated_at", type: "DATETIME" },
       ],
     },
-    position: { x: 350, y: 50 },
+    position: { x: 350, y: 100 },
   },
   {
     id: "3",
@@ -133,7 +133,7 @@ const initialNodes: Node[] = [
         { name: "updated_at", type: "DATETIME" },
       ],
     },
-    position: { x: 650, y: 50 },
+    position: { x: 600, y: 100 },
   },
   {
     id: "4",
@@ -147,7 +147,7 @@ const initialNodes: Node[] = [
         { name: "created_at", type: "DATETIME" },
       ],
     },
-    position: { x: 50, y: 300 },
+    position: { x: 100, y: 400 },
   },
   {
     id: "5",
@@ -161,7 +161,7 @@ const initialNodes: Node[] = [
         { name: "created_at", type: "DATETIME" },
       ],
     },
-    position: { x: 350, y: 300 },
+    position: { x: 350, y: 400 },
   },
   {
     id: "6",
@@ -177,7 +177,7 @@ const initialNodes: Node[] = [
         { name: "avatar_url", type: "VARCHAR(255)" },
       ],
     },
-    position: { x: 50, y: 550 },
+    position: { x: 600, y: 700 },
   },
 ];
 

@@ -80,37 +80,37 @@ const initialNodes: Node[] = [
     id: "1",
     type: "workflow",
     data: { label: "워크플로우 시작", type: "start", icon: "🚀" },
-    position: { x: 250, y: 25 },
+    position: { x: 400, y: 50 },
   },
   {
     id: "2",
     type: "workflow",
     data: { label: "데이터 수집", type: "process", icon: "📊" },
-    position: { x: 250, y: 125 },
+    position: { x: 400, y: 200 },
   },
   {
     id: "3",
     type: "workflow",
     data: { label: "유효성 검증", type: "decision", icon: "❓" },
-    position: { x: 250, y: 225 },
+    position: { x: 400, y: 350 },
   },
   {
     id: "4",
     type: "workflow",
     data: { label: "데이터 처리", type: "process", icon: "⚙️" },
-    position: { x: 100, y: 325 },
+    position: { x: 200, y: 500 },
   },
   {
     id: "5",
     type: "workflow",
     data: { label: "오류 처리", type: "process", icon: "⚠️" },
-    position: { x: 400, y: 325 },
+    position: { x: 600, y: 500 },
   },
   {
     id: "6",
     type: "workflow",
     data: { label: "완료", type: "end", icon: "✅" },
-    position: { x: 250, y: 425 },
+    position: { x: 400, y: 650 },
   },
 ];
 

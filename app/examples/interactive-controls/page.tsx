@@ -25,28 +25,28 @@ const initialNodes: Node[] = [
     id: "1",
     type: "input",
     data: { label: "입력 A" },
-    position: { x: 250, y: 25 },
+    position: { x: 400, y: 50 },
   },
   {
     id: "2",
     data: { label: "처리 B" },
-    position: { x: 100, y: 125 },
+    position: { x: 200, y: 250 },
   },
   {
     id: "3",
     data: { label: "처리 C" },
-    position: { x: 400, y: 125 },
+    position: { x: 600, y: 250 },
   },
   {
     id: "4",
     data: { label: "조합 D" },
-    position: { x: 250, y: 225 },
+    position: { x: 400, y: 450 },
   },
   {
     id: "5",
     type: "output",
     data: { label: "출력 E" },
-    position: { x: 250, y: 325 },
+    position: { x: 400, y: 650 },
   },
 ];
 

@@ -22,23 +22,23 @@ const initialNodes: Node[] = [
     id: "1",
     type: "input",
     data: { label: "시작" },
-    position: { x: 250, y: 25 },
+    position: { x: 400, y: 50 },
   },
   {
     id: "2",
     data: { label: "처리 과정" },
-    position: { x: 100, y: 125 },
+    position: { x: 200, y: 250 },
   },
   {
     id: "3",
     data: { label: "결정" },
-    position: { x: 400, y: 125 },
+    position: { x: 600, y: 250 },
   },
   {
     id: "4",
     type: "output",
     data: { label: "완료" },
-    position: { x: 250, y: 250 },
+    position: { x: 400, y: 450 },
   },
 ];
 
