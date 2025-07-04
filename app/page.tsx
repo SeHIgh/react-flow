@@ -34,6 +34,21 @@ export default function Home() {
       description: "확대/축소, 미니맵 등 인터랙티브 컨트롤",
       href: "/examples/interactive-controls",
     },
+    {
+      title: "CI/CD 파이프라인",
+      description: "Git Actions부터 AWS EC2 배포까지의 전체 CI/CD 흐름 시각화",
+      href: "/examples/cicd-pipeline",
+    },
+    {
+      title: "DevOps 모니터링",
+      description: "실시간 인프라 상태 모니터링 및 시스템 메트릭 시각화",
+      href: "/examples/devops-monitoring",
+    },
+    {
+      title: "Kubernetes 클러스터",
+      description: "Pod, Service, Deployment 등 K8s 리소스 관계 시각화",
+      href: "/examples/kubernetes-cluster",
+    },
   ];
 
   return (
